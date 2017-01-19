@@ -10,9 +10,9 @@ Generates an asciidoc formatted list of PRs for a given release
 // it's the closest we have. Don't worry, they'll get filtered out from the
 // output.
 // YYYY-MM-DD
-const DAY_BEFORE_EARLIEST_PR = '2016-06-08';
-const CURRENT_RELEASE_LABEL = 'v5.1.0';
-const PREVIOUS_RELEASE_LABELS = 'v5.0.0 v5.0.1 v5.0.2'.split(' ');
+const DAY_BEFORE_EARLIEST_PR = '2016-08-07';
+const CURRENT_RELEASE_LABEL = 'v5.2.0';
+const PREVIOUS_RELEASE_LABELS = 'v5.0.0 v5.0.1 v5.0.2 v5.1.1 v5.1.2'.split(' ');
 const TOKEN = require('./.token.json').token;
 
 const github = require('octonode');
